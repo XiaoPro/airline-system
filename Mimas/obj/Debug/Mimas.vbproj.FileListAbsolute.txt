@@ -1,0 +1,8 @@
+C:\cygwin64\home\user\airline-system\Mimas\bin\Mimas.dll
+C:\cygwin64\home\user\airline-system\Mimas\bin\Mimas.pdb
+C:\cygwin64\home\user\airline-system\Mimas\bin\Mimas.xml
+C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.Resources.resources
+C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.vbproj.GenerateResource.Cache
+C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.dll
+C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.xml
+C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.pdb

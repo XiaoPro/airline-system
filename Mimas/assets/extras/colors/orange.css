@@ -1,0 +1,332 @@
+
+
+a
+{
+    color: #f36510;
+}
+
+    a:hover
+    {
+        color: #E45E0C;
+    }
+
+/*----------------------------------------------------------*/
+/* Section - Title   [ Heading Style  ]
+/*----------------------------------------------------------*/
+
+
+.section-title h1
+{
+    color: #f36510;
+}
+
+.section-title span
+{
+    color: #333;
+}
+
+.section-title h1:before
+{
+    background-color: #f36510;
+}
+
+/*-- Heading Style - 2 --*/
+
+.column-title:after
+{
+    border-bottom: 1px solid #f36510;
+}
+
+/*----------------------------------------------------------*/
+/* Button Style
+/*----------------------------------------------------------*/
+
+
+.btn-border
+{
+    border: 1px solid #f36510;
+    color: #f36510;
+}
+
+    .btn-border:hover, .btn-border:active
+    {
+        color: #ffffff;
+        background: #f36510;
+    }
+
+.btn-borderwhite
+{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+    .btn-borderwhite:hover, .btn-borderwhite:active
+    {
+        color: #000000;
+        background: #ffffff;
+    }
+
+.btn-borderblack
+{
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+    .btn-borderblack:hover, .btn-borderblack:active
+    {
+        border-color: #333333;
+        color: #FFFFFF;
+        background: #333333;
+    }
+
+.btn-common
+{
+    background: #f36510;
+    color: #FFFFFF;
+}
+
+    .btn-common:hover
+    {
+        border: 1px solid #f36510;
+        color: #f36510;
+    }
+
+.down_arrow
+{
+    background-color: #f36510;
+}
+
+/* ==================-------------------------------------------------
+    1. NAV-MENU
+   ==================-------------------------------------------------*/
+
+
+
+#header .nav li a
+{
+    color: #f36510;
+}
+
+    #header .nav li a:after
+    {
+        border-bottom: 2px solid #f36510;
+    }
+
+    #header .nav li.active a:after, #header .nav li.active a, #header .nav li a:hover::after, #header .nav li a:hover, #header .nav li a:focus
+    {
+        color: #f36510;
+    }
+
+/* ==================-------------------------------------------------
+    2. BG Slider
+   ==================-------------------------------------------------*/
+
+/*-- BG-Scroll --*/
+
+#bg
+{
+    background: #f36510url('../../img/srollbg.jpg') left bottom;
+}
+
+#overlay
+{
+    color: #fff;
+}
+
+/*-- Main Content [ In Side of BG Slider ] --*/
+
+#main span
+{
+    color: #FF9933;
+}
+
+
+/*----------- Intro -------------*/
+
+#intro p
+{
+    color: #000000;
+}
+
+#intro h2
+{
+    color: #FD3300;
+}
+
+/*----------- Colorbox -----------*/
+
+.yellow_section
+{
+    background-color: #F47B33;
+}
+
+    .yellow_section:after
+    {
+        border-left-color: #F47B33;
+    }
+
+
+
+/* ==================-------------------------------------------------
+    3. SERVICES
+   ==================-------------------------------------------------*/
+
+
+.service-content i
+{
+    border: 1px solid #f36510;
+}
+
+.service-content h2
+{
+    color: #f36510;
+}
+
+.service-content:hover
+{
+    border: 1px solid #f36510;
+}
+
+
+/*----------- Call-To-Action -------------*/
+
+.main-bg
+{
+    background: #f36510;
+}
+
+
+
+/* ==================-------------------------------------------------
+    5. WORKS
+   ==================-------------------------------------------------*/
+
+
+.wrapper.style1
+{
+    background-color: #FFEBE1;
+    color: #333333;
+}
+
+/* ==================-------------------------------------------------
+    6. WHY
+   ==================-------------------------------------------------*/
+
+
+
+/*----------- Why_Features --------------*/
+
+
+
+#why_features .fa
+{
+    color: #f36510;
+}
+
+/*------------ Blog_Features ---------*/
+
+
+
+#blog_feature .feat-list i
+{
+    color: #f36510;
+}
+
+
+/*   Testimonial ---------*/
+
+#testimonial .spancolor
+{
+    color: #f36510;
+}
+
+
+
+
+
+/*--------- Client --------*/
+
+#clients
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 60px 24px 60px 24px;
+}
+
+
+    #clients .owl-carousel .owl-item
+    {
+        margin: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+/*---------- Contact -----------*/
+
+input[type="text"]:focus, .contact-form textarea:focus, input[type="text"]:focus, .contact-form textarea:focus
+{
+    border-color: #FF7A22;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+    -o-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+/*--------- Twitter ---------*/
+
+.twitter-widget a:hover
+{
+    color: #FF7A22;
+}
+
+
+
+
+.flickr-widget ul li a:hover
+{
+    opacity: 1;
+    color: #FF7A22;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* Common Image Style Hover Effect
+/*----------------------------------------------------------*/
+
+
+figure.effect-zoe figcaption
+{
+    background-color: rgba(255,122,34,0.8);
+}
+
+/* ---------------------------------*/
+/* Pre Loders
+/* ---------------------------------*/
+
+/*#loading
+{
+    background-color: #f36510;
+}*/
+
+
+
+/*----------- Scroll To Top ------------*/
+
+.scroll-top
+{
+    background: #f36510;
+}
+
+    .scroll-top:hover
+    {
+        background-color: #FF3300;
+    }

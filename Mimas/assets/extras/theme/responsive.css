@@ -1,0 +1,126 @@
+
+@import url("../../extras/theme/style.css");
+
+@media (max-width: 767px)
+{
+    #bg
+    {
+        background-size: 2250px auto;
+        width: 6750px;
+        overflow: hidden;
+    }
+
+    #header .nav li
+    {
+        border-width: 1px;
+        border-color: #CCCCCC;
+        border-bottom-style: solid;
+    }
+
+        #header .nav li:last-child
+        {
+            border-bottom-style: none;
+        }
+
+        #header .nav li a:after
+        {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border-bottom: 2px solid #0066DC;
+            width: 10%;
+            content: '';
+            opacity: 0;
+            -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+            -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+            transition: opacity 0.3s, transform 0.3s;
+            -webkit-transform: translateY(10px);
+            -moz-transform: translateY(10px);
+            transform: translateY(10px);
+        }
+
+    .feat-list i
+    {
+        top: -10px;
+    }
+
+    figure.effect-zoe p.description
+    {
+        border: 1px none #666666;
+        padding: 1em 2em 4em 2em;
+        color: #000000;
+        text-transform: none;
+        font-size: 90%;
+        margin-bottom: 1em;
+    }
+
+    ul.footer-nav
+    {
+        float: left;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #bg
+    {
+        background-size: 2250px auto;
+        width: 6750px;
+        overflow: hidden;
+    }
+
+    .section-title
+    {
+        font-size: 36px;
+    }
+
+    .navbar-collapse
+    {
+        background: #FFFFFF;
+        padding-bottom: 16px;
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .paddings
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    ul.footer-nav
+    {
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+    #header .navbar-header
+    {
+        width: 24%;
+    }
+
+    #header .navbar-brand img
+    {
+        width: 90%;
+        padding: 8px 0px;
+    }
+
+    #header .nav li
+    {
+        margin: 0 0 5px 12px;
+    }
+
+    #header .affix .nav
+    {
+        margin-top: 14px;
+    }
+
+    .paddings
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

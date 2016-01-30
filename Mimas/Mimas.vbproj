@@ -15,7 +15,7 @@
     <AssemblyName>Mimas</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MyType>Custom</MyType>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -81,9 +81,85 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\extras\animate.css" />
+    <Content Include="assets\extras\colors\green.css" />
+    <Content Include="assets\extras\colors\orange.css" />
+    <Content Include="assets\extras\owl\owl.carousel.css" />
+    <Content Include="assets\extras\owl\owl.theme.css" />
+    <Content Include="assets\extras\owl\owl.transitions.css" />
+    <Content Include="assets\extras\theme\ie8.css" />
+    <Content Include="assets\extras\theme\ie9.css" />
+    <Content Include="assets\extras\theme\normalize.css" />
+    <Content Include="assets\extras\theme\responsive.css" />
+    <Content Include="assets\extras\theme\style.css" />
+    <Content Include="assets\fonts\font-awesome\font-awesome.min.css" />
+    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\about\abouts.jpg" />
+    <Content Include="assets\img\about\desktop.jpg" />
+    <Content Include="assets\img\bg-overlay.png" />
+    <Content Include="assets\img\blog\blog-01.jpg" />
+    <Content Include="assets\img\blog\blog-02.jpg" />
+    <Content Include="assets\img\blog\blog-03.jpg" />
+    <Content Include="assets\img\blog\blog-04.jpg" />
+    <Content Include="assets\img\blog\blog-05.jpg" />
+    <Content Include="assets\img\blog\blog-06.jpg" />
+    <Content Include="assets\img\blog\blog-07.jpg" />
+    <Content Include="assets\img\blog\slider1.jpg" />
+    <Content Include="assets\img\blog\slider2.jpg" />
+    <Content Include="assets\img\case-study\bf-right.jpg" />
+    <Content Include="assets\img\case-study\iphone.png" />
+    <Content Include="assets\img\clients-logo\img1.png" />
+    <Content Include="assets\img\clients-logo\img2.png" />
+    <Content Include="assets\img\clients-logo\img3.png" />
+    <Content Include="assets\img\clients-logo\img4.png" />
+    <Content Include="assets\img\clients-logo\img5.png" />
+    <Content Include="assets\img\clients-logo\img6.png" />
+    <Content Include="assets\img\clients-logo\img7.png" />
+    <Content Include="assets\img\clients-logo\img8.png" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\services\services1.jpg" />
+    <Content Include="assets\img\services\services2.jpg" />
+    <Content Include="assets\img\services\services3.jpg" />
+    <Content Include="assets\img\srollbg.jpg" />
+    <Content Include="assets\img\testimonial-carousel\img-1.jpg" />
+    <Content Include="assets\img\testimonial-carousel\img-2.jpg" />
+    <Content Include="assets\img\testimonial-carousel\img-3.jpg" />
+    <Content Include="assets\img\testimonial-carousel\img-4.jpg" />
+    <Content Include="assets\img\works\1.jpg" />
+    <Content Include="assets\img\works\2.jpg" />
+    <Content Include="assets\img\works\4.jpg" />
+    <Content Include="assets\img\works\work1.jpg" />
+    <Content Include="assets\img\works\work2.jpg" />
+    <Content Include="assets\img\works\work3.jpg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\html5shiv.js" />
+    <Content Include="assets\js\jquery-min.js" />
+    <Content Include="assets\js\respond.min.js" />
+    <Content Include="assets\plugins\contact.js" />
+    <Content Include="assets\plugins\jquery-1.11.1.min.js" />
+    <Content Include="assets\plugins\jquery.easing.min.js" />
+    <Content Include="assets\plugins\jquery.nav.js" />
+    <Content Include="assets\plugins\main.js" />
+    <Content Include="assets\plugins\modernizr-2.8.0.main.js" />
+    <Content Include="assets\plugins\owl.carousel.js" />
+    <Content Include="assets\plugins\scroll-top.js" />
+    <Content Include="assets\plugins\smooth-scroll.js" />
+    <Content Include="assets\plugins\style.changer.js" />
+    <Content Include="assets\plugins\switcher.js" />
+    <Content Include="assets\plugins\wow.js" />
+    <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -113,6 +189,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\extras\less\responsive.less" />
+    <Content Include="assets\extras\less\style.less" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\font-awesome\FontAwesome.otf" />
+    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\font-awesome\fontawesome-webfont.woff" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -128,6 +213,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -154,9 +242,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>13040</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2648/</IISUrl>
+          <IISUrl>http://localhost/airlines</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
