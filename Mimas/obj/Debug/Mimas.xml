@@ -38,30 +38,6 @@ LinkButton1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.index.LinkButton2">
-	<summary>
-LinkButton2 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Mimas.index.LinkButton3">
-	<summary>
-LinkButton3 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Mimas.index.LinkButton4">
-	<summary>
-LinkButton4 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="P:Mimas.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.
