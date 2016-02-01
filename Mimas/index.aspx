@@ -26,6 +26,7 @@
     <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
     <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+    <link rel="stylesheet" type="text/css" href="assets/plugins/select2/select2.min.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lt IE 9]>
@@ -74,12 +75,12 @@
             <!-- Content -->
             <div id="main">
                 <div class="col-md-12">
-                    <h1>AirAsia</h1>
+                    <h1 style="color: #f20505">AirAsia</h1>
                     <h2>Widest Network <span>Lowest Fares</span>
                         <br />
                         Fly With The World's Best Low-Cost Airline </h2>
                     <p>
-                        [ START YOUR TRAVEL JOURNEY ]
+                        [ START YOUR <span>TRAVEL JOURNEY</span> ]
                     </p>
                 </div>
             </div>
@@ -99,15 +100,18 @@
         <div id="intro">
             <div class="container">
                 <div class="row text-center">
-                    <h2>We Are Perfect for Your Project
+                    <h2>Search Flights
                     </h2>
-                    <p>
-                        A very clean, responsive & super flexible multipurpose theme that makes it easy
-                    to create a website of any category.
-                    <br class="hidden-md hidden-sm hidden xs" />
-                        <strong>Bootstrap</strong> is the most popular CSS framework for developing responsive,
-                    <a href="#">mobile-first web sites.</a>
-                    </p>
+
+                    
+                            <div class="form-group">
+                                <select class="form-control select2" multiple="multiple" data-placeholder="Origin" style="width: 100%;">
+                                    <option>Malaysia</option>
+                                    <option>Singapore</option>
+                                    <option>Hong Kong</option>
+                                </select>
+                            </div>
+
                     <div class="text-center padding-bottom wow zoomIn" data-wow-delay="0.2s">
                         <asp:LinkButton runat="server" ID="modify" ToolTip="Download" CssClass="btn btn-common"
                             Text='<i class="fa fa-download"></i> Buy Theme' />
@@ -177,7 +181,7 @@
                     </div>
                     <!-- End Third Widget -->
 
-                    <!-- Start Contact Widget -->
+                    <!-- Start Fourth Widget -->
                     <div class="col-md-3 col-xs-12">
                         <div class="footer-widget contact-widget wow zoomIn animated" data-wow-offset="10"
                             data-wow-delay="0.5s">
@@ -192,7 +196,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- End Contact Widget -->
+                    <!-- End Fourth Widget -->
                 </div>
                 <!-- Start Copyright -->
                 <div class="copyright-section wow zoomIn animated" data-wow-offset="10" data-wow-delay="0.5s">
@@ -240,6 +244,8 @@
         <script src="assets/plugins/main.js"></script>
         <!-- Contact js -->
         <script src="assets/plugins/contact.js" type="text/javascript"></script>
+        <!-- Select2 js -->
+        <script src="assets/plugins/select2/select2.full.min.js"></script>
 
 
 
