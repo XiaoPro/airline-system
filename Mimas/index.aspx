@@ -110,83 +110,89 @@
                         </h2>
                         <br />
 
-                        <!-- Start Search Flights -->
-                        <div class="box-body" align="center">
-                            <div class="row">
-
-                                <form id="eventForm" method="post" class="form-horinzontal">
-                                    <!-- Start Left Panel -->
-                                    <div class="col-md-8">
-                                        <div class="form-group">
-                                            <select id="modal-search-origin" class="form-control select2" style="width: 100%;"
-                                                name="modal-search-origin" >
-                                                <option value="">Select</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <select id="modal-search-destination" class="form-control select2" style="width: 100%;"
-                                                name="modal-search-origin" >
-                                                <option value="">Select</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <!-- End Left Panel -->
-
-                                    <!-- Start Right Panel -->
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <div class="input-group input-append date" id="startDatePicker">
-                                                <input type="text" class="form-control" name="startDate" placeholder="Depart Date" />
-                                                <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group input-append date" id="endDatePicker">
-                                                <input type="text" class="form-control" name="endDate" placeholder="Return Date" />
-                                                <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Right Panel -->
-                                </form>
-
-                            </div>
+                        <div class="form-group has-error" id="errorMsgDiv" style="display: none;">
+                            <label class="help-block">
+                                <i class="fa fa-times-circle-o"></i><span
+                                    id="saveSearchErrorMsg"></span>
+                            </label>
                         </div>
+
+                        <form role="form" data-toggle="validator" id="modal-save-form" enctype="multipart/form-data"
+                            action="#">
+                            <fieldset>
+
+                                <!-- Start Search Flights -->
+                                <div class="box-body" align="center">
+                                    <div class="row">
+
+
+                                        <!-- Start Left Panel -->
+                                        <div class="col-md-7">
+                                            <div class="form-group">
+                                                <select id="modal-search-origin" class="form-control select2" style="width: 100%;"
+                                                    name="modal-search-origin" required>
+                                                    <option value="">Select</option>
+                                                </select>
+                                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                <span class="help-block with-errors"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <select id="modal-search-destination" class="form-control select2" style="width: 100%;"
+                                                    name="modal-search-destination" required>
+                                                    <option value="">Select</option>
+                                                </select>
+                                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                <span class="help-block with-errors"></span>
+                                            </div>
+                                        </div>
+                                        <!-- End Left Panel -->
+
+                                        <!-- Start Right Panel -->
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <div class="input-group input-append date" id="startDatePicker">
+                                                    <input type="text" class="form-control" name="startDate" placeholder="Depart Date" required />
+                                                    <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <span class="help-block with-errors"></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group input-append date" id="endDatePicker">
+                                                    <input type="text" class="form-control" name="endDate" placeholder="Return Date" required />
+                                                    <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+                                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                    <span class="help-block with-errors"></span>
+
+                                                </div>
+                                        </div>
+                                        <!-- End Right Panel -->
+
+                                        <!-- Search Button -->
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary wow zoomIn" data-wow-delay="0.2s">
+                                                Search
+                                            </button>
+                                        </div>
+                                        <!-- End Search Button -->
+
+                                    </div>
+                                </div>
+                                <!-- End Search Flights -->
+                            </fieldset>
+                        </form>
                         <!-- End Search Flights -->
-                    </div>
 
-                    <div class="text-center padding-bottom wow zoomIn" data-wow-delay="0.2s">
-                        <asp:LinkButton runat="server" ID="modify" ToolTip="Download" CssClass="btn btn-common"
-                            Text='<i class="fa fa-download"></i> Buy Theme' />
-                        <asp:LinkButton runat="server" ID="LinkButton1" ToolTip="Learn More" CssClass="btn btn-border"
-                            Text='<i class="fa fa-mail-forward"></i> Learn more' />
                     </div>
-                    <!-- End Search Flights -->
-
                 </div>
             </div>
         </div>
-        <!-- End Intro Section -->
+        <!-- End Flights Section -->
+        <br />
+        <br />
 
-
-        <!-- TODO: Content Here-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-- TODO: Next Content Here-->
 
 
 
