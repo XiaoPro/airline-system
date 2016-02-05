@@ -6,3 +6,11 @@ C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.vbproj.GenerateResour
 C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.dll
 C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.xml
 C:\cygwin64\home\user\airline-system\Mimas\obj\Debug\Mimas.pdb
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\bin\Mimas.dll
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\bin\Mimas.pdb
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\bin\Mimas.xml
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\obj\Debug\Mimas.Resources.resources
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\obj\Debug\Mimas.vbproj.GenerateResource.Cache
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\obj\Debug\Mimas.dll
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\obj\Debug\Mimas.xml
+C:\Users\springworks\Desktop\airline-system-develop\Mimas\obj\Debug\Mimas.pdb
