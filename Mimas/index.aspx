@@ -166,20 +166,20 @@
                                                     <span class="help-block with-errors"></span>
 
                                                 </div>
+                                            </div>
+                                            <!-- End Right Panel -->
                                         </div>
-                                        <!-- End Right Panel -->
-
-                                        <!-- Search Button -->
-                                        <div class="modal-footer">
-                                            <button type="submit" class="btn btn-primary wow zoomIn" data-wow-delay="0.2s">
-                                                Search
-                                            </button>
-                                        </div>
-                                        <!-- End Search Button -->
-
                                     </div>
-                                </div>
-                                <!-- End Search Flights -->
+
+                                    <!-- Search Button -->
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary wow zoomIn" data-wow-delay="0.2s">
+                                            Search
+                                        </button>
+                                    </div>
+                                    <!-- End Search Button -->
+
+                                    <!-- End Search Flights -->
                             </fieldset>
                         </form>
                         <!-- End Search Flights -->
@@ -191,10 +191,6 @@
         <!-- End Flights Section -->
         <br />
         <br />
-
-        <!-- TODO: Next Content Here-->
-
-
 
 
         <!-- Start Footer Section -->
@@ -304,6 +300,17 @@
 
         <script>
             $(document).ready(function () {
+
+
+                $('#startDatePicker').datepicker({
+                    format: 'dd/mm/yyyy',
+                    minDate: 0
+                });
+
+                $('#endDatePicker').datepicker({
+                    format: 'dd/mm/yyyy',
+                    minDate: 0
+                });
 
             });
         </script>

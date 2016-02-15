@@ -32,7 +32,8 @@ $(function eventForm() {
 
     $('#startDatePicker')
         .datepicker({
-            format: 'dd/mm/yyyy'
+            format: 'dd/mm/yyyy' ,
+            minDate: 0
         })
         .on('changeDate', function (e) {
             // Revalidate the start date field
@@ -41,7 +42,8 @@ $(function eventForm() {
 
     $('#endDatePicker')
         .datepicker({
-            format: 'dd/mm/yyyy'
+            format: 'dd/mm/yyyy' ,
+            minDate: 0
         })
         .on('changeDate', function (e) {
             $('#eventForm').formValidation('revalidateField', 'endDate');
