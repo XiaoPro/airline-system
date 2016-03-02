@@ -82,6 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\blue.css" />
+    <Content Include="assets\css\ionicons.min.css" />
+    <Content Include="assets\css\airasia.min.css" />
     <Content Include="assets\extras\animate.css" />
     <Content Include="assets\extras\colors\green.css" />
     <Content Include="assets\extras\colors\orange.css" />
@@ -93,6 +96,7 @@
     <Content Include="assets\extras\theme\normalize.css" />
     <Content Include="assets\extras\theme\responsive.css" />
     <Content Include="assets\extras\theme\style.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\fonts\font-awesome\font-awesome.min.css" />
     <Content Include="assets\fonts\font-awesome\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
@@ -252,14 +256,23 @@
     <Content Include="assets\plugins\switcher.js" />
     <Content Include="assets\plugins\wow.js" />
     <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataHolder.vb" />
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.vb">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
