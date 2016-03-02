@@ -38,6 +38,14 @@ RadioButtonList1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Mimas.login.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:Mimas.login.loginButton">
 	<summary>
 loginButton control.
@@ -46,7 +54,7 @@ loginButton control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.index.Head1">
+</member><member name="F:Mimas.UserMasterPage.Head1">
 	<summary>
 Head1 control.
 </summary>
@@ -54,9 +62,25 @@ Head1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.index.form1">
+</member><member name="F:Mimas.UserMasterPage.title">
 	<summary>
-form1 control.
+title control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.contentBody">
+	<summary>
+contentBody control.
 </summary>
 	<remarks>
 Auto-generated field.
