@@ -131,3 +131,24 @@
         <br />
 
 </asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="contentJavaScript" runat="server">
+    
+    <script>
+        $(document).ready(function () {
+
+
+            $('#startDatePicker').datepicker({
+                format: 'dd/mm/yyyy',
+                minDate: 0
+            });
+
+            $('#endDatePicker').datepicker({
+                format: 'dd/mm/yyyy',
+                minDate: 0
+            });
+
+        });
+    </script>
+
+</asp:Content>

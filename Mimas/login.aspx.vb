@@ -13,10 +13,7 @@ Public Class login
 
     Protected Sub loginButton_Click(sender As Object, e As EventArgs) Handles loginButton.Click
 
-        Dim database As DataHolder = New DataHolder
-        database.Path = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database.accdb"
-
-        Dim connect = database.Path
+        Dim connect = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database.accdb"
 
         If RadioButtonList1.SelectedIndex = 0 Then
 

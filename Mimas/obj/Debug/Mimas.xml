@@ -6,7 +6,88 @@ Mimas
 </name>
 </assembly>
 <members>
-<member name="F:Mimas.login.form1">
+<member name="F:Mimas.UserMasterPage.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.title">
+	<summary>
+title control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.main_navigation_menu">
+	<summary>
+main_navigation_menu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.btnSignin">
+	<summary>
+btnSignin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.contentBody">
+	<summary>
+contentBody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.UserMasterPage.contentJavaScript">
+	<summary>
+contentJavaScript control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Mimas.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Mimas.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Mimas.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Mimas.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Mimas.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Mimas.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Mimas.login.form1">
 	<summary>
 form1 control.
 </summary>
@@ -54,63 +135,62 @@ loginButton control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.UserMasterPage.Head1">
+</member><member name="F:Mimas.register.form1">
 	<summary>
-Head1 control.
+form1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.UserMasterPage.title">
+</member><member name="F:Mimas.register.username">
 	<summary>
-title control.
+username control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.UserMasterPage.head">
+</member><member name="F:Mimas.register.email">
 	<summary>
-head control.
+email control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.UserMasterPage.contentBody">
+</member><member name="F:Mimas.register.password">
 	<summary>
-contentBody control.
+password control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="P:Mimas.My.MyWebExtension.Computer">
+</member><member name="F:Mimas.register.password2">
 	<summary>
- Returns information about the host computer.
- </summary>
-</member><member name="P:Mimas.My.MyWebExtension.User">
+password2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.register.CompareValidator1">
 	<summary>
- Returns information for the current Web user.
- </summary>
-</member><member name="P:Mimas.My.MyWebExtension.Request">
+CompareValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.register.registerButton">
 	<summary>
- Returns Request object.
- </summary>
-</member><member name="P:Mimas.My.MyWebExtension.Response">
-	<summary>
- Returns Response object.
- </summary>
-</member><member name="P:Mimas.My.MyWebExtension.Log">
-	<summary>
- Returns the Asp log object.
- </summary>
-</member><member name="T:Mimas.My.MyWebExtension">
-	<summary>
- Module used to define the properties that are available in the My Namespace for Web projects.
- </summary>
-	<remarks></remarks>
+registerButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="P:Mimas.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.

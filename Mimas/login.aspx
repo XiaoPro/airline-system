@@ -14,10 +14,12 @@
                     Sign in to start your session
                 </p>
                 <div class="form-group has-feedback">
-                    <asp:TextBox ID="email" class="form-control" placeholder="Email" runat="server" CausesValidation="True"></asp:TextBox>
+                    <asp:TextBox ID="email" class="form-control" placeholder="Email" runat="server" CausesValidation="True" required></asp:TextBox>
+                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                 </div>
                 <div class="form-group has-feedback">
-                    <asp:TextBox ID="password" class="form-control" placeholder="Password" runat="server" CausesValidation="True" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="password" class="form-control" placeholder="Password" runat="server" CausesValidation="True" TextMode="Password" required></asp:TextBox>
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                 </div>
                 <div class="row">
                     <div class="col-xs-8">
@@ -34,13 +36,14 @@
                     <!-- /.col -->
                 </div>
 
-                <a href="#">I forgot my password</a><br>
-                <a href="register.html" class="text-center">Register a new membership</a>
+                <!-- <a href="#">I forgot my password</a><br/> -->
+                <a href="register.aspx" class="text-center">Register a new membership</a>
 
             </div>
             <!-- /.login-box-body -->
         </div>
         <!-- /.login-box -->
+
 
         <!-- Include jquery.min.js plugin -->
         <script src="assets/js/jquery-min.js"></script>
@@ -49,8 +52,12 @@
         <script>
             $(function () {
 
+
             });
         </script>
     </form>
 
+</asp:Content>
+
+<asp:Content ID="Content4" ContentPlaceHolderID="contentJavaScript" runat="server">
 </asp:Content>

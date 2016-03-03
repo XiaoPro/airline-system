@@ -11,50 +11,68 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class UserMasterPage
+Partial Public Class register
 
     '''<summary>
-    '''Head1 control.
+    '''form1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Head1 As Global.System.Web.UI.HtmlControls.HtmlHead
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''title control.
+    '''username control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents title As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents username As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''head control.
+    '''email control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents email As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''contentBody control.
+    '''password control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents contentBody As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents password As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''contentJavaScript control.
+    '''password2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents contentJavaScript As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents password2 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''CompareValidator1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents CompareValidator1 As Global.System.Web.UI.WebControls.CompareValidator
+
+    '''<summary>
+    '''registerButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents registerButton As Global.System.Web.UI.WebControls.Button
 End Class
