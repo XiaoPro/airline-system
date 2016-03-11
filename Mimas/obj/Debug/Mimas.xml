@@ -30,22 +30,6 @@ head control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:Mimas.UserMasterPage.main_navigation_menu">
-	<summary>
-main_navigation_menu control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:Mimas.UserMasterPage.btnSignin">
-	<summary>
-btnSignin control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
 </member><member name="F:Mimas.UserMasterPage.contentBody">
 	<summary>
 contentBody control.
