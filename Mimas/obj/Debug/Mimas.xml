@@ -46,6 +46,22 @@ contentJavaScript control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:Mimas.index.form">
+	<summary>
+form control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Mimas.index.searchButton">
+	<summary>
+searchButton control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="P:Mimas.My.MyWebExtension.Computer">
 	<summary>
  Returns information about the host computer.

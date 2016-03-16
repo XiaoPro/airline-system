@@ -259,6 +259,7 @@
     <Content Include="assets\plugins\style.changer.js" />
     <Content Include="assets\plugins\switcher.js" />
     <Content Include="assets\plugins\wow.js" />
+    <Content Include="booking.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
@@ -266,6 +267,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="booking.aspx.designer.vb">
+      <DependentUpon>booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="booking.aspx.vb">
+      <DependentUpon>booking.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>

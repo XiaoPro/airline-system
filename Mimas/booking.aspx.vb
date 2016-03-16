@@ -1,13 +1,7 @@
-﻿Public Class index
+﻿Public Class booking
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
-    End Sub
-
-
-    Protected Sub searchButton_Click(sender As Object, e As EventArgs) Handles searchButton.Click
-
 
         If Session("Username") = "" Then
             Dim message As String = "Please login first before continue... "
@@ -21,9 +15,10 @@
             ClientScript.RegisterStartupScript(Me.GetType(), "Redirect", script, True)
 
         Else
-            Response.Redirect("booking.aspx")
+
 
         End If
 
     End Sub
+
 End Class

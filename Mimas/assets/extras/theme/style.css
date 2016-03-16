@@ -314,13 +314,15 @@ hr
     cursor: pointer;
     padding: 8px 16px;
     display: inline-block;
-    margin: 10px 10px 10px 0px;
     font-size: 14px;
     outline: none;
     position: relative;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .btn-border
